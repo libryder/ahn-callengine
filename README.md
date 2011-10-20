@@ -19,7 +19,7 @@ Installation
     git clone git://github.com/libryder/ahn-callengine.git
     cd ahn-callengine
 
-How you specifically setup your Ruby environment is up to you but I recoomend 
+How you specifically setup your Ruby environment is up to you but I reccomend 
 using RVM with Ruby 1.9.2. 
 
     rvm use 1.9.2
