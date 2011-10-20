@@ -14,7 +14,7 @@ Adhearsion::Configuration.configure do |config|
   # :outputters : An array of log outputters to use. The default is to log to stdout and log/adhearsion.log
   # :formatters : An array of log formatters to apply to the outputters in use
   # :formatter : A log formatter to apply to all active outputters
-  config.logging :level => :info
+  config.logging :level => :debug
 
   # Whether incoming calls be automatically answered. Defaults to true.
   # config.automatically_answer_incoming_calls = false
@@ -45,7 +45,7 @@ Adhearsion::Configuration.configure do |config|
   # the Rails app folder with which you're integrating. The second argument must be one of the
   # the following: :development, :production, or :test.
 
-  config.enable_rails :path => '.', :env => :development
+  config.enable_rails :path => '.', :env => :production
 
   # Note: You CANNOT do enable_rails and enable_database at the same time. When you enable Rails,
   # it will automatically connect to same database Rails does and load the Rails app's models.
