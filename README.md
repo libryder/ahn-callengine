@@ -39,3 +39,13 @@ Tropo to your Adhearsion server.
 *Note* - This only works with incoming calls from a SIP number. Support for Skype will
 be added in the future.
 
+Getting Help
+-----------
+
+For more information on Tropo AGItate, check out the source code and specifcally this [readme](https://github.com/tropo/tropo-agitate/blob/develop/README.md). 
+
+[Tropo.com](http://tropo.com) 
+[Adhearsion.com](http://adhearsion.com)
+
+You can also get help in IRC @ irc.freenode.net in channels _#tropo_ and _#adhearsion_
+
