@@ -71,6 +71,7 @@ GEM
     method_source (0.6.6)
       ruby_parser (~> 2.0.5)
     mime-types (1.16)
+    minitest (2.6.2)
     multi_json (1.0.3)
     polyglot (0.3.2)
     pry (0.9.6.2)
@@ -148,6 +149,7 @@ DEPENDENCIES
   ahn-restful-rpc
   coffee-rails (~> 3.1.1)
   jquery-rails
+  minitest
   rails (= 3.1.1)
   rest-client
   sass-rails (~> 3.1.4)
